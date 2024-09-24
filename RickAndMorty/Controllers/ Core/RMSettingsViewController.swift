@@ -16,8 +16,4 @@ final class RMSettingsViewController: UIViewController {
         view.backgroundColor = .systemBackground
         title = "Settings"
     }
-    
-
-
-
 }

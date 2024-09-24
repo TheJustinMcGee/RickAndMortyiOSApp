@@ -22,6 +22,10 @@
 		55FDEE102CA1C27D00CA8C86 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDEE0F2CA1C27D00CA8C86 /* RMService.swift */; };
 		55FDEE122CA1C2A200CA8C86 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDEE112CA1C2A200CA8C86 /* RMRequest.swift */; };
 		55FDEE142CA1C3B000CA8C86 /* EMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDEE132CA1C3B000CA8C86 /* EMEndpoint.swift */; };
+		55FDEE162CA1E39A00CA8C86 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDEE152CA1E39A00CA8C86 /* RMOrigin.swift */; };
+		55FDEE182CA1E42000CA8C86 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDEE172CA1E42000CA8C86 /* RMSingleLocation.swift */; };
+		55FDEE1A2CA1F09400CA8C86 /* RMCharachterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDEE192CA1F09400CA8C86 /* RMCharachterStatus.swift */; };
+		55FDEE1C2CA1F0CE00CA8C86 /* RMCharachterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDEE1B2CA1F0CE00CA8C86 /* RMCharachterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		55FDEE0F2CA1C27D00CA8C86 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		55FDEE112CA1C2A200CA8C86 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		55FDEE132CA1C3B000CA8C86 /* EMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMEndpoint.swift; sourceTree = "<group>"; };
+		55FDEE152CA1E39A00CA8C86 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		55FDEE172CA1E42000CA8C86 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		55FDEE192CA1F09400CA8C86 /* RMCharachterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharachterStatus.swift; sourceTree = "<group>"; };
+		55FDEE1B2CA1F0CE00CA8C86 /* RMCharachterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharachterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +104,13 @@
 		55D5D28C2C87B63A00588436 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				55D5D2922C87B78300588436 /* RMLocation.swift */,
 				55D5D2942C87B79800588436 /* RMCharacter.swift */,
+				55D5D2922C87B78300588436 /* RMLocation.swift */,
 				55D5D2962C87B7B300588436 /* RMEpisode.swift */,
+				55FDEE1B2CA1F0CE00CA8C86 /* RMCharachterGender.swift */,
+				55FDEE192CA1F09400CA8C86 /* RMCharachterStatus.swift */,
+				55FDEE172CA1E42000CA8C86 /* RMSingleLocation.swift */,
+				55FDEE152CA1E39A00CA8C86 /* RMOrigin.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FDEE162CA1E39A00CA8C86 /* RMOrigin.swift in Sources */,
+				55FDEE182CA1E42000CA8C86 /* RMSingleLocation.swift in Sources */,
 				55D5D29D2C87B8B500588436 /* RMLocationViewController.swift in Sources */,
 				55D5D2972C87B7B300588436 /* RMEpisode.swift in Sources */,
 				55D5D27C2C87B36A00588436 /* RMTabBarController.swift in Sources */,
@@ -229,9 +243,11 @@
 				55FDEE142CA1C3B000CA8C86 /* EMEndpoint.swift in Sources */,
 				55D5D2A22C88F69E00588436 /* RMSettingsViewController.swift in Sources */,
 				55FDEE102CA1C27D00CA8C86 /* RMService.swift in Sources */,
+				55FDEE1A2CA1F09400CA8C86 /* RMCharachterStatus.swift in Sources */,
 				55D5D2932C87B78300588436 /* RMLocation.swift in Sources */,
 				55D5D2952C87B79800588436 /* RMCharacter.swift in Sources */,
 				55FDEE122CA1C2A200CA8C86 /* RMRequest.swift in Sources */,
+				55FDEE1C2CA1F0CE00CA8C86 /* RMCharachterGender.swift in Sources */,
 				55D5D29A2C87B87B00588436 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
